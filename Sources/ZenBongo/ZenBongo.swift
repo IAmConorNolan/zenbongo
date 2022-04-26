@@ -6,6 +6,10 @@ public struct ZenBongo {
     public init(bongoDevice: BongoInstrument) {
         self.bongoDevice = bongoDevice
     }
+
+    public func maracas() -> String {
+        "🎼🎼🎼"
+    }
 }
 
 public protocol BongoInstrument {
